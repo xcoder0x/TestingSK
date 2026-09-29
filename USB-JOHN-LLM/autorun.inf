@@ -1,0 +1,9 @@
+[AutoRun]
+label=USB-JOHN-LLM
+icon=Windows\usb-john-llm.ico
+open=INSTALL.bat
+action=Install USB-JOHN-LLM (offline AI)
+shell\install=&Install USB-JOHN-LLM
+shell\install\command=INSTALL.bat
+shell\start=&Start USB-JOHN-LLM
+shell\start\command=START.bat

@@ -1,0 +1,9 @@
+Shared/bin/*
+!Shared/bin/README.txt
+Shared/models/*.gguf
+Shared/models/ollama_data/
+Shared/models/Modelfile*
+Shared/chat_data/*
+!Shared/chat_data/.keep
+Shared/logs/
+__pycache__/
