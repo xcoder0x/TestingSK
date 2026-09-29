@@ -279,7 +279,7 @@ def _fixup_main_from_path(main_path):
     # Unfortunately, the main ipython launch script historically had no
     # "if __name__ == '__main__'" guard, so we work around that
     # by treating it like a __main__.py file
-    # See https://github.com/ipython/ipython/issues/4698
+    # See [reference removed]
     main_name = os.path.splitext(os.path.basename(main_path))[0]
     if main_name == 'ipython':
         return

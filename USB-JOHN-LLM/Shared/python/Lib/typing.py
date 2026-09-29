@@ -214,7 +214,7 @@ def _should_unflatten_callable_args(typ, args):
     """Internal helper for munging collections.abc.Callable's __args__.
 
     The canonical representation for a Callable's __args__ flattens the
-    argument types, see https://github.com/python/cpython/issues/86361.
+    argument types, see [reference removed]
 
     For example::
 

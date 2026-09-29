@@ -1,10 +1,10 @@
 @echo off
-title USB-JOHN-LLM - Install
+title USB-JOHN-LLM by Hostdel Packer - Install
 color 0A
 cd /d "%~dp0"
 echo.
 echo  ==================================================
-echo    USB-JOHN-LLM  -  One-click offline installer
+echo    USB-JOHN-LLM by Hostdel Packer  -  One-click offline installer
 echo  ==================================================
 echo.
 echo  Nothing is downloaded. Everything runs from this drive.

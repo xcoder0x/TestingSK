@@ -10,7 +10,7 @@
 """
 #    This module is maintained by Marc-Andre Lemburg <mal@egenix.com>.
 #    If you find problems, please submit bug reports/patches via the
-#    Python issue tracker (https://github.com/python/cpython/issues) and
+#    Python issue tracker ([reference removed]) and
 #    mention "@malemburg".
 #
 #    Still needed:

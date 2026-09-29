@@ -413,7 +413,7 @@ class NonCallableMock(Base):
     # to mock attributes. Using a class attribute allows all NonCallableMock
     # instances to share the mutex for simplicity.
     #
-    # See https://github.com/python/cpython/issues/98624 for why this is
+    # See [reference removed] for why this is
     # necessary.
     _lock = RLock()
 

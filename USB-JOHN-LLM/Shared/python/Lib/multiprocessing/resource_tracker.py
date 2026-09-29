@@ -73,7 +73,7 @@ class ResourceTracker(object):
     def __del__(self):
         # making sure child processess are cleaned before ResourceTracker
         # gets destructed.
-        # see https://github.com/python/cpython/issues/88887
+        # see [reference removed]
         self._stop(use_blocking_lock=False)
 
     def _stop(self, use_blocking_lock=True):

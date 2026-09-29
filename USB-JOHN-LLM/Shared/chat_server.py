@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-USB-JOHN-LLM Chat Server
+USB-JOHN-LLM Chat Server - Hostdel Packer
 =======================
 A zero-dependency Python HTTP server that:
   1. Serves the FastChatUI.html web interface
@@ -900,7 +900,7 @@ def main():
 
     print()
     print("=" * 55)
-    print("  USB-JOHN-LLM - Chat Server")
+    print("  USB-JOHN-LLM by Hostdel Packer - Chat Server")
     print("=" * 55)
     print()
     print(f"  Local Access:    http://localhost:{CHAT_SERVER_PORT}")

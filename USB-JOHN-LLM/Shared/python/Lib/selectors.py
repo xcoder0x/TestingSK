@@ -588,7 +588,7 @@ if hasattr(select, 'kqueue'):
 def _can_use(method):
     """Check if we can use the selector depending upon the
     operating system. """
-    # Implementation based upon https://github.com/sethmlarson/selectors2/blob/master/selectors2.py
+    # Implementation based upon [reference removed]
     selector = getattr(select, method, None)
     if selector is None:
         # select module does not implement method

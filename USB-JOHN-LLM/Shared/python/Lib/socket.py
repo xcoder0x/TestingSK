@@ -592,7 +592,7 @@ if hasattr(_socket.socket, "share"):
         return socket(0, 0, 0, info)
     __all__.append("fromshare")
 
-# Origin: https://gist.github.com/4325783, by Geert Jansen.  Public domain.
+# Origin: [reference removed], by Geert Jansen.  Public domain.
 # This is used if _socket doesn't natively provide socketpair. It's
 # always defined so that it can be patched in for testing purposes.
 def _fallback_socketpair(family=AF_INET, type=SOCK_STREAM, proto=0):

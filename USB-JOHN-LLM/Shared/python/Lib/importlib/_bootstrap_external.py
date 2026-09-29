@@ -1392,7 +1392,7 @@ class _NamespacePath:
 
 # This class is actually exposed publicly in a namespace package's __loader__
 # attribute, so it should be available through a non-private name.
-# https://github.com/python/cpython/issues/92054
+# [reference removed]
 class NamespaceLoader:
     def __init__(self, name, path, path_finder):
         self._path = _NamespacePath(name, path, path_finder)

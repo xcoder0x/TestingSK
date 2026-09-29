@@ -341,7 +341,7 @@ class _ModuleLock:
                     #
                     # This seems to be more than just a hypothetical -
                     # https://stackoverflow.com/questions/59509154
-                    # https://github.com/encode/django-rest-framework/issues/7078
+                    # [reference removed]
                     if self.has_deadlock():
                         raise _DeadlockError(f'deadlock detected by {self!r}')
 

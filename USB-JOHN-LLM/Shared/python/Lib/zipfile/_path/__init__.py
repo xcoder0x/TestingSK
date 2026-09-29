@@ -3,7 +3,7 @@ A Path-like interface for zipfiles.
 
 This codebase is shared between zipfile.Path in the stdlib
 and zipp in PyPI. See
-https://github.com/python/importlib_metadata/wiki/Development-Methodology
+[reference removed]
 for more detail.
 """
 

@@ -121,14 +121,14 @@ function Import-Models {
 }
 
 function Start-Chat {
-    if (-not (Test-Package)) { throw "The USB package is incomplete. Run INSTALL.bat or contact your supplier." }
+    if (-not (Test-Package)) { throw "The USB package is incomplete. Run INSTALL.bat or contact Hostdel Packer support." }
     Import-Models
     Write-Step "Starting the AI engine..."
     $server = Start-OllamaServer
     Write-Ok "AI engine online."
     Write-Host ""
     Write-Host "  ============================================================" -ForegroundColor Green
-    Write-Host "   USB-JOHN-LLM is running.  Chat UI: http://localhost:$ChatPort" -ForegroundColor Green
+    Write-Host "   USB-JOHN-LLM (Hostdel Packer) is running.  Chat UI: http://localhost:$ChatPort" -ForegroundColor Green
     Write-Host "   Close this window (or press Ctrl+C) to shut everything down." -ForegroundColor Green
     Write-Host "  ============================================================" -ForegroundColor Green
     Write-Host ""
@@ -141,7 +141,7 @@ function Start-Chat {
 }
 
 Write-Host ""
-Write-Host "  USB-JOHN-LLM  -  offline AI" -ForegroundColor Yellow
+Write-Host "  USB-JOHN-LLM by Hostdel Packer  -  offline AI" -ForegroundColor Yellow
 Write-Host "  Drive folder: $Root" -ForegroundColor DarkGray
 Write-Host ""
 

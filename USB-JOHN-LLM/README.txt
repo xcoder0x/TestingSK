@@ -1,5 +1,5 @@
-USB-JOHN-LLM  -  private offline AI on a USB drive
-==================================================
+USB-JOHN-LLM by Hostdel Packer  -  private offline AI on a USB drive
+=================================================================
 
 Requirements
   - Windows 10 / 11 / Windows Server 2016 or newer (64-bit)
@@ -32,6 +32,6 @@ Folder layout
   Shared\logs\                           log files, useful if something fails
 
 Troubleshooting
-  - "Model file missing": the drive was not prepared completely. Contact your supplier.
+  - "Model file missing": the drive was not prepared completely. Contact Hostdel Packer support.
   - Slow answers: choose the smaller model in the chat's model selector.
   - Port already in use: run STOP.bat, then START.bat again.

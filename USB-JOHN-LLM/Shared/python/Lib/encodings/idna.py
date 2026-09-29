@@ -102,7 +102,7 @@ def ToASCII(label):
 
 def ToUnicode(label):
     if len(label) > 1024:
-        # Protection from https://github.com/python/cpython/issues/98433.
+        # Protection from [reference removed]
         # https://datatracker.ietf.org/doc/html/rfc5894#section-6
         # doesn't specify a label size limit prior to NAMEPREP. But having
         # one makes practical sense.

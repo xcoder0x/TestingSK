@@ -234,7 +234,7 @@ class Task(futures._PyFuture):  # Inherit Python Task implementation
             return False
         self._num_cancels_requested += 1
         # These two lines are controversial.  See discussion starting at
-        # https://github.com/python/cpython/pull/31394#issuecomment-1053545331
+        # [reference removed]
         # Also remember that this is duplicated in _asynciomodule.c.
         # if self._num_cancels_requested > 1:
         #     return False

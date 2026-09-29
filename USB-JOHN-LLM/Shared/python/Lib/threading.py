@@ -40,7 +40,7 @@ get_ident = _thread.get_ident
 try:
     _is_main_interpreter = _thread._is_main_interpreter
 except AttributeError:
-    # See https://github.com/python/cpython/issues/112826.
+    # See [reference removed]
     # We can pretend a subinterpreter is the main interpreter for the
     # sake of _shutdown(), since that only means we do not wait for the
     # subinterpreter's threads to finish.  Instead, they will be stopped

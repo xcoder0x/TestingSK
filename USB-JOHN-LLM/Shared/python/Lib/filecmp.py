@@ -161,7 +161,7 @@ class dircmp:
             try:
                 a_stat = os.stat(a_path)
             except (OSError, ValueError):
-                # See https://github.com/python/cpython/issues/122400
+                # See [reference removed]
                 # for the rationale for protecting against ValueError.
                 # print('Can\'t stat', a_path, ':', why.args[1])
                 ok = False

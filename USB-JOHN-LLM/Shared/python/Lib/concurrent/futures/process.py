@@ -691,7 +691,7 @@ class ProcessPoolExecutor(_base.Executor):
                 mp_context = mp.get_context()
         self._mp_context = mp_context
 
-        # https://github.com/python/cpython/issues/90622
+        # [reference removed]
         self._safe_to_dynamically_spawn_children = (
                 self._mp_context.get_start_method(allow_none=False) != "fork")
 
@@ -706,7 +706,7 @@ class ProcessPoolExecutor(_base.Executor):
             elif max_tasks_per_child <= 0:
                 raise ValueError("max_tasks_per_child must be >= 1")
             if self._mp_context.get_start_method(allow_none=False) == "fork":
-                # https://github.com/python/cpython/issues/90622
+                # [reference removed]
                 raise ValueError("max_tasks_per_child is incompatible with"
                                  " the 'fork' multiprocessing start method;"
                                  " supply a different mp_context.")
@@ -777,11 +777,11 @@ class ProcessPoolExecutor(_base.Executor):
             # method. That means there is still a potential deadlock bug. If a
             # 'fork' mp_context worker dies, we'll be forking a new one when
             # we know a thread is running (self._executor_manager_thread).
-            #assert self._safe_to_dynamically_spawn_children or not self._executor_manager_thread, 'https://github.com/python/cpython/issues/90622'
+            #assert self._safe_to_dynamically_spawn_children or not self._executor_manager_thread, '[reference removed]
             self._spawn_process()
 
     def _launch_processes(self):
-        # https://github.com/python/cpython/issues/90622
+        # [reference removed]
         assert not self._executor_manager_thread, (
                 'Processes cannot be fork()ed after the thread has started, '
                 'deadlock in the child processes could result.')

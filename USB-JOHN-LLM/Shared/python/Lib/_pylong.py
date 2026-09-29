@@ -24,7 +24,7 @@ def int_to_decimal(n):
     """Asymptotically fast conversion of an 'int' to Decimal."""
 
     # Function due to Tim Peters.  See GH issue #90716 for details.
-    # https://github.com/python/cpython/issues/90716
+    # [reference removed]
     #
     # The implementation in longobject.c of base conversion algorithms
     # between power-of-2 and non-power-of-2 bases are quadratic time.
@@ -133,7 +133,7 @@ def _str_to_int_inner(s):
     """Asymptotically fast conversion of a 'str' to an 'int'."""
 
     # Function due to Bjorn Martinsson.  See GH issue #90716 for details.
-    # https://github.com/python/cpython/issues/90716
+    # [reference removed]
     #
     # The implementation in longobject.c of base conversion algorithms
     # between power-of-2 and non-power-of-2 bases are quadratic time.

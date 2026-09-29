@@ -1,5 +1,5 @@
 @echo off
-title USB-JOHN-LLM - Reseller preparation (internet required)
+title USB-JOHN-LLM (Hostdel Packer) - Reseller preparation (internet required)
 color 0E
 cd /d "%~dp0.."
 echo.

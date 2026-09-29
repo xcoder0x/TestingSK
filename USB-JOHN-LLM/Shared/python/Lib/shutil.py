@@ -275,7 +275,7 @@ def copyfile(src, dst, *, follow_symlinks=True):
                         except _GiveupOnFastCopy:
                             pass
                     # Windows, see:
-                    # https://github.com/python/cpython/pull/7160#discussion_r195405230
+                    # [reference removed]
                     elif _WINDOWS and file_size > 0:
                         _copyfileobj_readinto(fsrc, fdst, min(file_size, COPY_BUFSIZE))
                         return dst

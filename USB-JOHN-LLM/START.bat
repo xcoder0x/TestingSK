@@ -1,5 +1,5 @@
 @echo off
-title USB-JOHN-LLM
+title USB-JOHN-LLM by Hostdel Packer
 color 0B
 cd /d "%~dp0"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Windows\usb-john-llm.ps1" -Action start

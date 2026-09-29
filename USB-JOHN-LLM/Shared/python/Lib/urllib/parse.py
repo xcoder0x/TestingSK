@@ -969,7 +969,7 @@ def quote_from_bytes(bs, safe='/'):
     if (bs_len := len(bs)) < 200_000:
         return ''.join(map(quoter, bs))
     else:
-        # This saves memory - https://github.com/python/cpython/issues/95865
+        # This saves memory - [reference removed]
         chunk_size = math.isqrt(bs_len)
         chunks = [''.join(map(quoter, bs[i:i+chunk_size]))
                   for i in range(0, bs_len, chunk_size)]
